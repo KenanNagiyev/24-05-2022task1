@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace WebApplication2.Models
 {
-    public class Slider
+    public class ProductImage
     {
         public int Id { get; set; }
-        public string Description { get; set; }
-        public double Price { get; set; }
         public string Image { get; set; }
+        public bool Isfront { get; set; }
+        public bool IsBack { get; set; }
+        public int ProductId { get; set; }
     }
 }
